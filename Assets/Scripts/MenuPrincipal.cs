@@ -7,7 +7,7 @@ public class MenuPrincipale : MonoBehaviour
 {
    public void Jouer()
     {
-        SceneManager.LoadScene("DunDun");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void Quitter()
