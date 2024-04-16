@@ -1,0 +1,4901 @@
+fileFormatVersion: 2
+guid: eaadd7373ab5d9b459de862e897dae33
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 436
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571a5710bde5fc24f97523cc6ac57ec0
+      internalID: -317813185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_1
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 436
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c1a25097e644440b2c856ee6967a61
+      internalID: -1145081650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 404
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71908fa6ef428dd4b9337db3425840d4
+      internalID: 1411611622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 404
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369bd5d6612a6c242852a2f0edbaa80f
+      internalID: 1421116301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 404
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9681e43263add04e9f79e2bec043aff
+      internalID: -1899016189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_5
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 404
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc047f0014daf54caca6238476ac4ad
+      internalID: -596149673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_6
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 404
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580dcf3a636de88408d6adefef6c65d2
+      internalID: -1183236879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_7
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 404
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420a4403965ffa043b10a5dcb09423ee
+      internalID: 1522893993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_8
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 404
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80a0a3951f91ed44b51856a22349770
+      internalID: -2001689076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_9
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 404
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd842f8428b9b244900c3ec018192d9
+      internalID: -1385299238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 372
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3419f33c32d70446bde06d8b90930ce
+      internalID: 1270362224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 372
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6262d8aa96431bc42bed00cc4868240f
+      internalID: -856099119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_12
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 372
+        width: 12
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8acdbb926dee4d4abd0d9b8217389eb
+      internalID: -1698625986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_13
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 372
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce4475c2d8fcc84e9411812d292a742
+      internalID: -746707767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_14
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 372
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d5b1cd8df7a6547b8118d971fa9468
+      internalID: 1340187387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_15
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 372
+        width: 12
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f654230a15baa0742b617d7b685c8190
+      internalID: 1435453342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 340
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41874ae37d0466b48b2050e76458e281
+      internalID: -1923487611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 340
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7400f95ab64feeb4aba26414aefa0f01
+      internalID: 1867075432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_18
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 340
+        width: 12
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cbbe8aef66d114893b18da99c19f52
+      internalID: -2120435251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_19
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 340
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1251d159333acc64fb94ae262f03aa4b
+      internalID: -1646245737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 340
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338ed10d5f6d24f419b8fbae07398816
+      internalID: -1559781601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_21
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 340
+        width: 12
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7ca2c2600f20444ac115d1082b8863
+      internalID: -1097866198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_22
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 340
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cc2140babac7c46b51428de0ca8d3a
+      internalID: -1030626641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_23
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 340
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331af7be1c475c44f8f8726a50205d4d
+      internalID: 214895512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_24
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 340
+        width: 12
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4572cfe6f6fc9e4fb6c6bd1b2ae6c30
+      internalID: 1594796217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_25
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 340
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d609cb6dfeeab234f8916b025498e224
+      internalID: -775612312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_26
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 340
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be336208c34a704ebcedf69418902f0
+      internalID: -1034219518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_27
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 340
+        width: 12
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b760b06b24939e43a0070da25a43710
+      internalID: 897268145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_28
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 308
+        width: 14
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f8aeac9fd03a64b8f7a3aa5f959814
+      internalID: -763601080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_29
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 321
+        width: 6
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0945423cefc7f914ea461435bcd5d585
+      internalID: 855815123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_30
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 326
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6eee28c110785458922132395ff53f
+      internalID: -142448583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 323
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab9a790413a0ae4eb754495a992285a
+      internalID: 525178351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_32
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 322
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92bf311cfb8f8f439384f258d9fc1fe
+      internalID: -1223109799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_33
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 327
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bacb61e6a61921459b11ae9b088c368
+      internalID: -744125880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 315
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdac70c329a55994388bb463290c44d0
+      internalID: 207006256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_35
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 308
+        width: 14
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed206e666454d3b4a8fc0955484b9773
+      internalID: -1496564090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_36
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 321
+        width: 6
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2e730cce9492740a2a7e839e2b5812
+      internalID: 723401962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_37
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 326
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d8dcf1088dd984c8907b0a62bc648f
+      internalID: -587892239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_38
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 323
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d702a5c27412fc549835dc32d30e6e77
+      internalID: 2024008702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_39
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 322
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d62d593a4866854dad26b1f76d475e3
+      internalID: -1019456637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_40
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 327
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7f625b79c509843b778ae4c2c8285a
+      internalID: 1039461505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_41
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 315
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0183cc28053bf2d4cb918256aca114ed
+      internalID: 1569561542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_42
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 308
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2643ea90b61b5bb499a8577133ea30f5
+      internalID: 1641094983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_43
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 308
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab4f8fb0d810414e984356fdb9be61d
+      internalID: -2059106782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_44
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 308
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d282c8b8aa2d94cbf25a1594f4296c
+      internalID: -1268663529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_45
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 308
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c06132324ed2a49a701ae02a153a76
+      internalID: 214169296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_46
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 308
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37983065c3f9da04cb7d246f25e08fff
+      internalID: 329362661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_47
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 321
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35c710a7472e154cb18d6a140508bee
+      internalID: -1433172484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_48
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 308
+        width: 19
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ed8ffd530f90f498eb2a0c5783d5ab
+      internalID: -1077787567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_49
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 308
+        width: 92
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cc812ac3eb63040ab73ba82a9dba7d
+      internalID: -1543522497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_50
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 308
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c5f358645980b4bacc0ae5cd8875c0
+      internalID: 1312723364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_51
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 308
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76c3d85b1888a642b1a5430b066a96e
+      internalID: 1251682627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_52
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 308
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c52d1122ab31a4a9d081b044d4816f
+      internalID: 213167283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_53
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 308
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51150f435c141794b99ce3bb3e4eb53f
+      internalID: 1881165872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_54
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 308
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d971d3ca2017574082e40e0a8ed3ad6
+      internalID: -13169526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_55
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 321
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d10270151756544085cdab309e3b665
+      internalID: 307031273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_56
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 308
+        width: 19
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0426efac19d05bd459d5db80c5f628e8
+      internalID: 994683060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_57
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 308
+        width: 92
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16180471e83516248ad874dd0a971c80
+      internalID: -1399426621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_58
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 308
+        width: 14
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee436ff7b630e9448dd848361abaf91
+      internalID: -1330580323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_59
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 316
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83213fb606c05524fa38be56caae27a8
+      internalID: 2037603239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_60
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 308
+        width: 29
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d57f4224016b540b639ecc5493ea98
+      internalID: 1394963869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_61
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 308
+        width: 14
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5413db01c415c7b458c2e966ce1892d3
+      internalID: -961209328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_62
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 316
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d794f239469a84409133ed06d3a89ce
+      internalID: -1579196834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_63
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 308
+        width: 29
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d25455b5a9e12f409a73f3369903558
+      internalID: 228859448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_64
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 244
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789a2105f9345d5478626d4de4f6e70a
+      internalID: 369499929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_65
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 244
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7acee8bae5ca524d80742f2ead8803b
+      internalID: -13944196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_66
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 212
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98f277fdbdde3b41a141e396b7b12e1
+      internalID: 1517772329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_67
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 212
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2441765fc381f3043b6f72bec38f9115
+      internalID: -436272827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_68
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 212
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f94e290f1c5ad4ebe444159892ab2d
+      internalID: -815614786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_69
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 212
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e2b47dfb685474b83f33333e6bc32b
+      internalID: -346926185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_70
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 212
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63310c20d2bbc4469ac7062a193c968
+      internalID: -1290763208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_71
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 212
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffd853e91b6f6a40a0f0172e65b684c
+      internalID: 1017551792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_72
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 212
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5ffe89baffbd340942c44ac50d4ed2
+      internalID: 1517110272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_73
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 212
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c063c662429e2994a8c574f7620080ce
+      internalID: 1587710860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_74
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 180
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6dc1b33f17da74f88fe4e3c9bbb996
+      internalID: -574788836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_75
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 180
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77951cb97ee14bb4880a3adffeb67432
+      internalID: -1392731253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_76
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 180
+        width: 12
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7bd7185844b1a44b5ae1e7282e0386
+      internalID: 1873311654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_77
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 180
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac5702eec56bf24c83664ddabdb769c
+      internalID: 1591218034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_78
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 180
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10eec0a2fc1ee834f82f04c3a14aba74
+      internalID: -1457730485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_79
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 180
+        width: 12
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6179c43c43c0a4b459d5093949bce7d1
+      internalID: -1281353377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_80
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 148
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b6568ac14dcd64faaaff780e040f16
+      internalID: -902091153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_81
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 148
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86adefe1e83f0c04680c3b8e1d8e2ce7
+      internalID: 307986745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_82
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 148
+        width: 12
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0dfcd4ef225b8844a398bc00c7de61a
+      internalID: -907840553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_83
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 148
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef82159178d563449d39f5786d496b8
+      internalID: 484418543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_84
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 148
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fd21d875c3c07418e4424b4f7aef39
+      internalID: -213537142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_85
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 148
+        width: 12
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaea1aeb826a35147ac46a935a0e7fc9
+      internalID: 747201604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_86
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 148
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2421ab4f512ab2046a7a6639ff9b7bb8
+      internalID: 84441502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_87
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 148
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba22184c432a944f9a63aff6cf6d53a
+      internalID: -1964312890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_88
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 148
+        width: 12
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c9f728ca4aa2f4c99b3735717e4ba7
+      internalID: -842848818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_89
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 148
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cdd45c8c4f0964d9b9482689a13d56
+      internalID: -339452845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_90
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 148
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fd3d37d39eb214d8b71ab239c0476f
+      internalID: -423507064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_91
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 148
+        width: 12
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9b5caccc639ac44ac14b95b05e1141
+      internalID: -417747597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_92
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 116
+        width: 14
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e38c6769e858f45952820fef6c4407
+      internalID: -1955485223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_93
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 129
+        width: 6
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4839a7b76bd0b246a50d9ac3159756c
+      internalID: -178250555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_94
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 134
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dd5910009042747b5e09d8c84e1656
+      internalID: -924570679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_95
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 131
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da649132e42cf7345829526f508ec3f7
+      internalID: -102659645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_96
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 130
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8d0554e9fea4e49a055095ce99f88f
+      internalID: 1241153614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_97
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 135
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e08284a01f9bd47a1e1b4d30123811
+      internalID: 1083891023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_98
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 123
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a3cfcb0f3f57d4781c94ad0c8a51e8
+      internalID: -781283945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_99
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 116
+        width: 14
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8aec3c03bc8e4439fa0ae49993dc89
+      internalID: 1794115379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_100
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 129
+        width: 6
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d801bfb7f6af864bb68b53e42fe973d
+      internalID: -1845323365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_101
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 134
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13181cae48a7ad240bc67c3bf7020faa
+      internalID: -882260498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_102
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 131
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9b2b53ce25d65469dbc5edcd11ec2b
+      internalID: -1134170175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_103
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 130
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eee8fe822424ce43b694457cbd6c8c8
+      internalID: -824664717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_104
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 135
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d46b1f93e38fdf4ead768b59869e948
+      internalID: -862614519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_105
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 123
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9c1e6b392fc6a4a8b1fbf953d06db6
+      internalID: -1979667821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_106
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 116
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcdea09675b6d84da1aafa9238b5fd0
+      internalID: 627404516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_107
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 116
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0941e86fc0263414fba78a7ee417fe92
+      internalID: 29129529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_108
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 116
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e854a622ffdf4534d9d80f208f8f94ee
+      internalID: -1951454992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_109
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 116
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ee3c9439ea7024cb8d67d8189d16c9
+      internalID: -937092452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_110
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 116
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78206a9a622226747b979a477f0a4365
+      internalID: 1515277665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_111
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 129
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ab47ab1cd14c54394e733186778f5f
+      internalID: 1052196982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_112
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 116
+        width: 19
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f57e83b05903bc4eb399966465dd1fc
+      internalID: 1751937127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_113
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 116
+        width: 92
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c0cfcd3ae4d524683fec248580c988
+      internalID: -788278704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_114
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 116
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db05c4a9431cac54cbab3e8832be4771
+      internalID: -1476606126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_115
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 116
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55f87474a354c24b95d8f322904838a
+      internalID: 988336834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_116
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 116
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbf4a436dbf4484d99cf486d06baacb
+      internalID: -1582109949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_117
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 116
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cab4367f76f284abd9ff5227d80414
+      internalID: -906073088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_118
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 116
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c61ba282f77dc478c4d2eac43a90d8
+      internalID: 104746337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_119
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 129
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c0485321c67014db40933289f66667
+      internalID: 1761635915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_120
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 116
+        width: 19
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1146d4b3af7c249a8c0fd40a413097
+      internalID: 915610228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_121
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 116
+        width: 92
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00606d571e1d93643ade37edbd933aed
+      internalID: 391818029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_122
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 116
+        width: 14
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989aa2b327901424eb03052e08452c71
+      internalID: 1034844705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_123
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 124
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cc60de8a6328d448843b5adc70a4ec
+      internalID: 936852414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_124
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 116
+        width: 29
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4629eb59a9edf43b42981a48766a17
+      internalID: -1771329802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_125
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 116
+        width: 14
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f51741f58c58c4b944f45d65ff4865
+      internalID: 1119320432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_126
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 124
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7113e598a2417448ac6a0f976a29d0
+      internalID: -701367468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_127
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 116
+        width: 29
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc7f6b99450a014ca8c8cba833e8c34
+      internalID: 529072909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_128
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 71
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781d19d5907152548a39369d63be9bde
+      internalID: -1558249556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_129
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 72
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8d9f08c4e41ed4a8b0b42cc31ceb67
+      internalID: -1052646080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_130
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 68
+        width: 8
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9171fb1c7a5cea44fb6d6b3cc1f1ac18
+      internalID: 701418269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_131
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 71
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bedf51591d51c499c0aa7592d79713
+      internalID: -647414172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_132
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 71
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ac55637d0e64c43a049ac00d036002
+      internalID: 296721092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_133
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 68
+        width: 16
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb473d754f5d325468a648310759999a
+      internalID: 1061517260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_134
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 72
+        width: 10
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa03259b0b886824ba3f35b471d9e0c3
+      internalID: -1347313446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_135
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 71
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c6cb1cebb620143b86136035db5aa6
+      internalID: -844019139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_136
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 71
+        width: 4
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8f8121fcb31504f9254ccffed06aec
+      internalID: -378033097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_137
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 71
+        width: 19
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ac55edf56e656498954da4ffd62418
+      internalID: 284260414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_138
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 72
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a85eb97740bdf43b9e1002db18b29b
+      internalID: 2050366447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_139
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 68
+        width: 8
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee5dc62040387846adf54191c4ee18b
+      internalID: 356091608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_140
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 71
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98d420e1412c244db7ad22d36e38fb0
+      internalID: -1492977464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_141
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 71
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79983cdae493fa4d9ead2223919880a
+      internalID: 583143569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_142
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 71
+        width: 15
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426493c434e04a349b3a7592cfcedbaf
+      internalID: 936761494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_143
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 71
+        width: 25
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ca934e05d623b48871e8ad08c536f2
+      internalID: -48768854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_144
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 71
+        width: 5
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37297d3bd1fe8946982efa3157664ca
+      internalID: 616738443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_145
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 72
+        width: 8
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d9078f9a3dfed48bdde116384622ac
+      internalID: 73681462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_146
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 71
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ddb23b5dde54148bcc409f9305b1f9
+      internalID: -2000894821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_147
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 71
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4897fd09c4ec15f4487e477a2ef92dda
+      internalID: 1320415374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_148
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 68
+        width: 17
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a69d37e0856f3a4883072e4ff3eb706
+      internalID: 1345051578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_149
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 68
+        width: 8
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba262a85df6cc8488c4c9636e33e274
+      internalID: 445052213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_150
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 71
+        width: 13
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f15ccc0b309c1f4e8a17d97ef25d6a9
+      internalID: 1336027542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_151
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 71
+        width: 23
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171c4e1ec6e72ff4d80e459dd98b7ec7
+      internalID: 853384013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_152
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 71
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c27ead242700346bea6bb6ebd46e85
+      internalID: -1678731583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_153
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 71
+        width: 16
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9829d8fd989da8a4c95a19ec2b8965d2
+      internalID: 1698236578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_154
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 75
+        width: 21
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f619400569d4294d83dfd2782871322
+      internalID: -1447758078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_155
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 75
+        width: 10
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a740d141a9e8494489669773fb7931a3
+      internalID: 1843028591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_156
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 75
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002a37ffd8cf1ed48b059c04dd62c639
+      internalID: -1784130432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_157
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 76
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7667b68369032b14eb0fbf28f87bea74
+      internalID: 1302178052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_158
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 75
+        width: 25
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd1c907f03a71743837d30378aedc83
+      internalID: 984593671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_159
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 75
+        width: 7
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c8351aad7ef4c4094ae5aea9f71b55
+      internalID: 1561639320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_160
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 75
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36705a96c42224242a7cbdbcc47af99a
+      internalID: 628185925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_161
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 76
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4733b4a8a5874b4bbbbb57fa39530a9
+      internalID: 1134120163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_162
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 72
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece67cbabcbc1ba4283d16945c294969
+      internalID: -280061286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_163
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 76
+        width: 14
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241ac623a72a97b40b6588f3e45476fa
+      internalID: 1566504350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_164
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 76
+        width: 10
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0caeaed2f6df9fe4a8b1df383482a668
+      internalID: -312201450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_165
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 76
+        width: 10
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b035b84fbee83694d8276dd617c9b1cd
+      internalID: 264045492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_166
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 75
+        width: 34
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b840c2a3b4d6264aa68ad7d5649fd08
+      internalID: 2118844098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_167
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 76
+        width: 10
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c6fe7dbf043d7498b5fac9688bc419
+      internalID: 1198578061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_168
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 76
+        width: 9
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9250b45661911d4791ada8b8d173432
+      internalID: -544080439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_169
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 53
+        width: 10
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48fbd8b4c8615548a4f7f4ad96191b3
+      internalID: 1170046925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_170
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 52
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0274710ce4bc7c418c55323ef1c5045
+      internalID: 6277769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_171
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 52
+        width: 18
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396a4ee55c3a2b64ebe1e00cc75edf18
+      internalID: 791159000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_172
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 53
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0b60fb3ca82274bb47f43fee4e67ac
+      internalID: -84463464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_173
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 49
+        width: 8
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a83a42d64fc34439fb3dc8ab8ea490
+      internalID: -1537970486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_174
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 52
+        width: 16
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e8170b161a1e941a477b50e3516de7
+      internalID: -982180902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_175
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 52
+        width: 16
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a088b60185c24b4419aca83e289e4c07
+      internalID: 823894949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_176
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 52
+        width: 17
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d44a6160a610d4783670421bb6a397
+      internalID: -1394948053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_177
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 52
+        width: 8
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3b91cde64e248448cec63fcb75511f
+      internalID: 1056065987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_178
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 52
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4232a04fa0cf36f44b8cededc9058b46
+      internalID: -1499579946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_179
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 52
+        width: 9
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a55966ee90753343bdb36fb3f881274
+      internalID: -1331938872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_180
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 53
+        width: 7
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dc1742932fd1046a97e68fee48233c
+      internalID: -1294959691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_181
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 52
+        width: 8
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7319a14a3f3cb64cb2dbd7d431a0297
+      internalID: 241918830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_182
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 52
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb7a668ffe03ca47aba2a16f18bdbb8
+      internalID: -222768717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_183
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 52
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f1d6755a8b7fe48af4d8b920b5a83a
+      internalID: -1277849246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_184
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 53
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfeb2c9923fcb294a846ad1a14fec0ab
+      internalID: -2039105658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_185
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 52
+        width: 16
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424366e2a35dc9243a5a0d7315983cb5
+      internalID: -816563232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_186
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 52
+        width: 7
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5572ce32b41de44aa58b103f91d6b3
+      internalID: -1854839451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_187
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 52
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd30a70b20bfbc84c8d46ec81e50f342
+      internalID: -543854349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_188
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 52
+        width: 26
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a331f94f737bb14b8371b415cac6209
+      internalID: -677621642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_189
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 52
+        width: 7
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f1815a60e51844597530dc63547b45
+      internalID: 942991649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_190
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 53
+        width: 12
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45424d9c9c85a24780e71a08a719e0b
+      internalID: -2015920554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_191
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 52
+        width: 16
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12b6943461c30042bf65ee599b9d95b
+      internalID: -414502672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_192
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 52
+        width: 17
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9646680c2ba5c6d4fb101eb3ad162c49
+      internalID: -240731666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_193
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 52
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee1ccc4fb7221544aa37028f668cd5d
+      internalID: 1779582994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_194
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 52
+        width: 13
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa4322084178cb4ea55b94b1654a293
+      internalID: -1774026598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_195
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 52
+        width: 22
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2986a0304703c44a198dee670c2c85
+      internalID: -768387483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_196
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 52
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c654a677e57bb42ba9e847d14f566a
+      internalID: -1364344939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_197
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 53
+        width: 10
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0489114b438e04e8beb67721e0453f
+      internalID: -1380286503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_198
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 49
+        width: 21
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7183cdb5c6f0c0a4ea01d5418f18d929
+      internalID: -1957512247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_199
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 34
+        width: 9
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abf14fc5bd953047bde1b701fc3d63a
+      internalID: -1559079837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_200
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 33
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10949e36cbb09e54d80f010be12aa183
+      internalID: 128324526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_201
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 33
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7377e78327a992140a9673a45d587832
+      internalID: 1200864596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_202
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 33
+        width: 19
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484f69e732948464e96749fe6632b26f
+      internalID: 1615273687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_203
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 34
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337127f3c0ca1104ab293812f5e861a3
+      internalID: -757226498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_204
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 30
+        width: 8
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139049a71bd34ed4e84a9fedfa585c4e
+      internalID: 1612047493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_205
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 14
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550de61fc4a1d9345ab19614b83ec244
+      internalID: 918933415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_206
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 14
+        width: 13
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b798299377713c84b92d98c132dba2d3
+      internalID: 71741620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_207
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 14
+        width: 18
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c140de5323754f4abd50fb02319fad8
+      internalID: -2017946237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_208
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 15
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fae274bd55776944831df9dd0714439
+      internalID: -1980157153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_209
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 11
+        width: 8
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21737afc1b44f3042ab128fbc284dba1
+      internalID: -1994614475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_210
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 14
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b0eb308ce7e8a42a1e457f3d006fe7
+      internalID: 737105969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_211
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 15
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a141a2360eafd468852ca83a79aa0b
+      internalID: 1538399554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_212
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 14
+        width: 8
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64641c6b042af264a9a87885283820d9
+      internalID: -511539842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_213
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 14
+        width: 17
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34004a23f9062b14ea91435a4e0cc772
+      internalID: 1090516698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_214
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 14
+        width: 24
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030e7da89a1cb6d419d9f27663cac2da
+      internalID: -102566606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_215
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 15
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843aabaa0b5a1a449970d6a09fe2cfd8
+      internalID: -1081477548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg-sprite-sheet-GIF_216
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 11
+        width: 8
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df3261ebb8bd8e4c9c593e1a2d141b4
+      internalID: 1760129632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      egg-sprite-sheet-GIF_0: -317813185
+      egg-sprite-sheet-GIF_1: -1145081650
+      egg-sprite-sheet-GIF_10: 1270362224
+      egg-sprite-sheet-GIF_100: -1845323365
+      egg-sprite-sheet-GIF_101: -882260498
+      egg-sprite-sheet-GIF_102: -1134170175
+      egg-sprite-sheet-GIF_103: -824664717
+      egg-sprite-sheet-GIF_104: -862614519
+      egg-sprite-sheet-GIF_105: -1979667821
+      egg-sprite-sheet-GIF_106: 627404516
+      egg-sprite-sheet-GIF_107: 29129529
+      egg-sprite-sheet-GIF_108: -1951454992
+      egg-sprite-sheet-GIF_109: -937092452
+      egg-sprite-sheet-GIF_11: -856099119
+      egg-sprite-sheet-GIF_110: 1515277665
+      egg-sprite-sheet-GIF_111: 1052196982
+      egg-sprite-sheet-GIF_112: 1751937127
+      egg-sprite-sheet-GIF_113: -788278704
+      egg-sprite-sheet-GIF_114: -1476606126
+      egg-sprite-sheet-GIF_115: 988336834
+      egg-sprite-sheet-GIF_116: -1582109949
+      egg-sprite-sheet-GIF_117: -906073088
+      egg-sprite-sheet-GIF_118: 104746337
+      egg-sprite-sheet-GIF_119: 1761635915
+      egg-sprite-sheet-GIF_12: -1698625986
+      egg-sprite-sheet-GIF_120: 915610228
+      egg-sprite-sheet-GIF_121: 391818029
+      egg-sprite-sheet-GIF_122: 1034844705
+      egg-sprite-sheet-GIF_123: 936852414
+      egg-sprite-sheet-GIF_124: -1771329802
+      egg-sprite-sheet-GIF_125: 1119320432
+      egg-sprite-sheet-GIF_126: -701367468
+      egg-sprite-sheet-GIF_127: 529072909
+      egg-sprite-sheet-GIF_128: -1558249556
+      egg-sprite-sheet-GIF_129: -1052646080
+      egg-sprite-sheet-GIF_13: -746707767
+      egg-sprite-sheet-GIF_130: 701418269
+      egg-sprite-sheet-GIF_131: -647414172
+      egg-sprite-sheet-GIF_132: 296721092
+      egg-sprite-sheet-GIF_133: 1061517260
+      egg-sprite-sheet-GIF_134: -1347313446
+      egg-sprite-sheet-GIF_135: -844019139
+      egg-sprite-sheet-GIF_136: -378033097
+      egg-sprite-sheet-GIF_137: 284260414
+      egg-sprite-sheet-GIF_138: 2050366447
+      egg-sprite-sheet-GIF_139: 356091608
+      egg-sprite-sheet-GIF_14: 1340187387
+      egg-sprite-sheet-GIF_140: -1492977464
+      egg-sprite-sheet-GIF_141: 583143569
+      egg-sprite-sheet-GIF_142: 936761494
+      egg-sprite-sheet-GIF_143: -48768854
+      egg-sprite-sheet-GIF_144: 616738443
+      egg-sprite-sheet-GIF_145: 73681462
+      egg-sprite-sheet-GIF_146: -2000894821
+      egg-sprite-sheet-GIF_147: 1320415374
+      egg-sprite-sheet-GIF_148: 1345051578
+      egg-sprite-sheet-GIF_149: 445052213
+      egg-sprite-sheet-GIF_15: 1435453342
+      egg-sprite-sheet-GIF_150: 1336027542
+      egg-sprite-sheet-GIF_151: 853384013
+      egg-sprite-sheet-GIF_152: -1678731583
+      egg-sprite-sheet-GIF_153: 1698236578
+      egg-sprite-sheet-GIF_154: -1447758078
+      egg-sprite-sheet-GIF_155: 1843028591
+      egg-sprite-sheet-GIF_156: -1784130432
+      egg-sprite-sheet-GIF_157: 1302178052
+      egg-sprite-sheet-GIF_158: 984593671
+      egg-sprite-sheet-GIF_159: 1561639320
+      egg-sprite-sheet-GIF_16: -1923487611
+      egg-sprite-sheet-GIF_160: 628185925
+      egg-sprite-sheet-GIF_161: 1134120163
+      egg-sprite-sheet-GIF_162: -280061286
+      egg-sprite-sheet-GIF_163: 1566504350
+      egg-sprite-sheet-GIF_164: -312201450
+      egg-sprite-sheet-GIF_165: 264045492
+      egg-sprite-sheet-GIF_166: 2118844098
+      egg-sprite-sheet-GIF_167: 1198578061
+      egg-sprite-sheet-GIF_168: -544080439
+      egg-sprite-sheet-GIF_169: 1170046925
+      egg-sprite-sheet-GIF_17: 1867075432
+      egg-sprite-sheet-GIF_170: 6277769
+      egg-sprite-sheet-GIF_171: 791159000
+      egg-sprite-sheet-GIF_172: -84463464
+      egg-sprite-sheet-GIF_173: -1537970486
+      egg-sprite-sheet-GIF_174: -982180902
+      egg-sprite-sheet-GIF_175: 823894949
+      egg-sprite-sheet-GIF_176: -1394948053
+      egg-sprite-sheet-GIF_177: 1056065987
+      egg-sprite-sheet-GIF_178: -1499579946
+      egg-sprite-sheet-GIF_179: -1331938872
+      egg-sprite-sheet-GIF_18: -2120435251
+      egg-sprite-sheet-GIF_180: -1294959691
+      egg-sprite-sheet-GIF_181: 241918830
+      egg-sprite-sheet-GIF_182: -222768717
+      egg-sprite-sheet-GIF_183: -1277849246
+      egg-sprite-sheet-GIF_184: -2039105658
+      egg-sprite-sheet-GIF_185: -816563232
+      egg-sprite-sheet-GIF_186: -1854839451
+      egg-sprite-sheet-GIF_187: -543854349
+      egg-sprite-sheet-GIF_188: -677621642
+      egg-sprite-sheet-GIF_189: 942991649
+      egg-sprite-sheet-GIF_19: -1646245737
+      egg-sprite-sheet-GIF_190: -2015920554
+      egg-sprite-sheet-GIF_191: -414502672
+      egg-sprite-sheet-GIF_192: -240731666
+      egg-sprite-sheet-GIF_193: 1779582994
+      egg-sprite-sheet-GIF_194: -1774026598
+      egg-sprite-sheet-GIF_195: -768387483
+      egg-sprite-sheet-GIF_196: -1364344939
+      egg-sprite-sheet-GIF_197: -1380286503
+      egg-sprite-sheet-GIF_198: -1957512247
+      egg-sprite-sheet-GIF_199: -1559079837
+      egg-sprite-sheet-GIF_2: 1411611622
+      egg-sprite-sheet-GIF_20: -1559781601
+      egg-sprite-sheet-GIF_200: 128324526
+      egg-sprite-sheet-GIF_201: 1200864596
+      egg-sprite-sheet-GIF_202: 1615273687
+      egg-sprite-sheet-GIF_203: -757226498
+      egg-sprite-sheet-GIF_204: 1612047493
+      egg-sprite-sheet-GIF_205: 918933415
+      egg-sprite-sheet-GIF_206: 71741620
+      egg-sprite-sheet-GIF_207: -2017946237
+      egg-sprite-sheet-GIF_208: -1980157153
+      egg-sprite-sheet-GIF_209: -1994614475
+      egg-sprite-sheet-GIF_21: -1097866198
+      egg-sprite-sheet-GIF_210: 737105969
+      egg-sprite-sheet-GIF_211: 1538399554
+      egg-sprite-sheet-GIF_212: -511539842
+      egg-sprite-sheet-GIF_213: 1090516698
+      egg-sprite-sheet-GIF_214: -102566606
+      egg-sprite-sheet-GIF_215: -1081477548
+      egg-sprite-sheet-GIF_216: 1760129632
+      egg-sprite-sheet-GIF_22: -1030626641
+      egg-sprite-sheet-GIF_23: 214895512
+      egg-sprite-sheet-GIF_24: 1594796217
+      egg-sprite-sheet-GIF_25: -775612312
+      egg-sprite-sheet-GIF_26: -1034219518
+      egg-sprite-sheet-GIF_27: 897268145
+      egg-sprite-sheet-GIF_28: -763601080
+      egg-sprite-sheet-GIF_29: 855815123
+      egg-sprite-sheet-GIF_3: 1421116301
+      egg-sprite-sheet-GIF_30: -142448583
+      egg-sprite-sheet-GIF_31: 525178351
+      egg-sprite-sheet-GIF_32: -1223109799
+      egg-sprite-sheet-GIF_33: -744125880
+      egg-sprite-sheet-GIF_34: 207006256
+      egg-sprite-sheet-GIF_35: -1496564090
+      egg-sprite-sheet-GIF_36: 723401962
+      egg-sprite-sheet-GIF_37: -587892239
+      egg-sprite-sheet-GIF_38: 2024008702
+      egg-sprite-sheet-GIF_39: -1019456637
+      egg-sprite-sheet-GIF_4: -1899016189
+      egg-sprite-sheet-GIF_40: 1039461505
+      egg-sprite-sheet-GIF_41: 1569561542
+      egg-sprite-sheet-GIF_42: 1641094983
+      egg-sprite-sheet-GIF_43: -2059106782
+      egg-sprite-sheet-GIF_44: -1268663529
+      egg-sprite-sheet-GIF_45: 214169296
+      egg-sprite-sheet-GIF_46: 329362661
+      egg-sprite-sheet-GIF_47: -1433172484
+      egg-sprite-sheet-GIF_48: -1077787567
+      egg-sprite-sheet-GIF_49: -1543522497
+      egg-sprite-sheet-GIF_5: -596149673
+      egg-sprite-sheet-GIF_50: 1312723364
+      egg-sprite-sheet-GIF_51: 1251682627
+      egg-sprite-sheet-GIF_52: 213167283
+      egg-sprite-sheet-GIF_53: 1881165872
+      egg-sprite-sheet-GIF_54: -13169526
+      egg-sprite-sheet-GIF_55: 307031273
+      egg-sprite-sheet-GIF_56: 994683060
+      egg-sprite-sheet-GIF_57: -1399426621
+      egg-sprite-sheet-GIF_58: -1330580323
+      egg-sprite-sheet-GIF_59: 2037603239
+      egg-sprite-sheet-GIF_6: -1183236879
+      egg-sprite-sheet-GIF_60: 1394963869
+      egg-sprite-sheet-GIF_61: -961209328
+      egg-sprite-sheet-GIF_62: -1579196834
+      egg-sprite-sheet-GIF_63: 228859448
+      egg-sprite-sheet-GIF_64: 369499929
+      egg-sprite-sheet-GIF_65: -13944196
+      egg-sprite-sheet-GIF_66: 1517772329
+      egg-sprite-sheet-GIF_67: -436272827
+      egg-sprite-sheet-GIF_68: -815614786
+      egg-sprite-sheet-GIF_69: -346926185
+      egg-sprite-sheet-GIF_7: 1522893993
+      egg-sprite-sheet-GIF_70: -1290763208
+      egg-sprite-sheet-GIF_71: 1017551792
+      egg-sprite-sheet-GIF_72: 1517110272
+      egg-sprite-sheet-GIF_73: 1587710860
+      egg-sprite-sheet-GIF_74: -574788836
+      egg-sprite-sheet-GIF_75: -1392731253
+      egg-sprite-sheet-GIF_76: 1873311654
+      egg-sprite-sheet-GIF_77: 1591218034
+      egg-sprite-sheet-GIF_78: -1457730485
+      egg-sprite-sheet-GIF_79: -1281353377
+      egg-sprite-sheet-GIF_8: -2001689076
+      egg-sprite-sheet-GIF_80: -902091153
+      egg-sprite-sheet-GIF_81: 307986745
+      egg-sprite-sheet-GIF_82: -907840553
+      egg-sprite-sheet-GIF_83: 484418543
+      egg-sprite-sheet-GIF_84: -213537142
+      egg-sprite-sheet-GIF_85: 747201604
+      egg-sprite-sheet-GIF_86: 84441502
+      egg-sprite-sheet-GIF_87: -1964312890
+      egg-sprite-sheet-GIF_88: -842848818
+      egg-sprite-sheet-GIF_89: -339452845
+      egg-sprite-sheet-GIF_9: -1385299238
+      egg-sprite-sheet-GIF_90: -423507064
+      egg-sprite-sheet-GIF_91: -417747597
+      egg-sprite-sheet-GIF_92: -1955485223
+      egg-sprite-sheet-GIF_93: -178250555
+      egg-sprite-sheet-GIF_94: -924570679
+      egg-sprite-sheet-GIF_95: -102659645
+      egg-sprite-sheet-GIF_96: 1241153614
+      egg-sprite-sheet-GIF_97: 1083891023
+      egg-sprite-sheet-GIF_98: -781283945
+      egg-sprite-sheet-GIF_99: 1794115379
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
