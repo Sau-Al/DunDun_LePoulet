@@ -109,6 +109,7 @@ public class ControlePersonnage : MonoBehaviour
             if (collision.gameObject.name == "Renard")
             {
                 GetComponent<Animator>().SetBool("mort", true);
+                
 
                 //Désactive les contrôles du personnage lorsqu'il est mort
                 if (transform.position.x > collision.transform.position.x)
@@ -122,9 +123,6 @@ public class ControlePersonnage : MonoBehaviour
 
                 //Partie terminée enregistrée
                 partieTerminee = true;
-
-                //Affiche le texte de fin de jeu
-                textFinDuJeu.GetComponent<TextMeshProUGUI>().fontSize = 100f;
 
                 //Fin de la partie, reload la scene
                 Invoke("Recommencer", 2f);
@@ -149,12 +147,25 @@ public class ControlePersonnage : MonoBehaviour
         //Recommençer la partie
         void Recommencer()
         {
-          SceneManager.LoadScene("DunDun");
+            SceneManager.LoadScene("finMort");
         }
 
         //Compteur des oeufs
         void UpdatePointage()
         {
         textPointage.text = "Pointage: " + compteur.ToString();
+        }
+
+        //Si le poulet tombe dans le vide
+        void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (collision.gameObject.name == "Vide")
+            {
+                //Déclenche l'animation de mort
+                GetComponent<Animator>().SetBool("mort", true);
+
+                //Recommence la partie
+                Invoke("Recommencer", 2f);
+            }
         }
 }   

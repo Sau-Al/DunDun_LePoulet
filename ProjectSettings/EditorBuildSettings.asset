@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DunDun.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/finMort.unity
+    guid: 3542f220c859ef249ac2258ca07f3f34
+  - enabled: 1
+    path: Assets/Scenes/finGagne.unity
+    guid: 9082bae822c0b6c4da17f792179f013d
   m_configObjects: {}
