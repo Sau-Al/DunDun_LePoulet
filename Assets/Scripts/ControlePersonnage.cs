@@ -144,6 +144,19 @@ public class ControlePersonnage : MonoBehaviour
         }
 
         }
+         //Si le poulet tombe dans le vide
+        void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (collision.gameObject.tag == "Vide")
+            {
+                //Déclenche l'animation de mort
+                GetComponent<Animator>().SetBool("mort", true);
+
+                //Recommence la partie
+                Invoke("Recommencer", 2f);
+            }
+        }
+        
         //Recommençer la partie
         void Recommencer()
         {
@@ -156,16 +169,5 @@ public class ControlePersonnage : MonoBehaviour
         textPointage.text = "Pointage: " + compteur.ToString();
         }
 
-        //Si le poulet tombe dans le vide
-        void OnTriggerEnter2D(Collider2D collision)
-        {
-            if (collision.gameObject.name == "Vide")
-            {
-                //Déclenche l'animation de mort
-                GetComponent<Animator>().SetBool("mort", true);
-
-                //Recommence la partie
-                Invoke("Recommencer", 2f);
-            }
-        }
+       
 }   
