@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
+using UnityEngine.UI;
 
 public class ControlePersonnage : MonoBehaviour
 {
@@ -10,11 +10,6 @@ public class ControlePersonnage : MonoBehaviour
     public float vitesseXMax; //vitesse horizontale désirée
     public float vitesseY; //vitesse verticale 
     public float vitesseSaut; //vitesse de saut désirée
-
-    //Déclaration des variables pour le texte
-    public TextMeshProUGUI textFinDuJeu;
-    public TextMeshProUGUI textPointage; // texte du pointage
-    float compteur;
 
     public bool partieTerminee; // variable pour la fin de la partie
 
@@ -28,7 +23,6 @@ public class ControlePersonnage : MonoBehaviour
         sourceAudio = GetComponent<AudioSource>(); //Initialise le composant audio
         partieTerminee = false; //Initialise la variable partieTerminee
         attaquePossible = true; //Initialise la variable attaquePossible
-        textFinDuJeu.GetComponent<TextMeshProUGUI>().fontSize = 0; //va chercher le texte
     }
 
     // Update is called once per frame
@@ -130,7 +124,7 @@ public class ControlePersonnage : MonoBehaviour
             }
 
             //Récupère un oeuf
-            if (collision.gameObject.name == "Oeuf")
+            if (collision.gameObject.tag == "Oeuf")
             {
                 Destroy(collision.gameObject);
 
@@ -139,8 +133,13 @@ public class ControlePersonnage : MonoBehaviour
 
             //Affiche le nombre d'oeufs récupérés
             //Pointage
-            compteur = compteur + 1f;
-            UpdatePointage();
+            OeufsRetrouves.compteurOeufs += 1;
+
+            //Si le nombre d'oeufs est égal à 10, la partie est gagnée
+            if (OeufsRetrouves.compteurOeufs == 10)
+            {
+                SceneManager.LoadScene("finGagne");
+            }
         }
 
         }
@@ -161,12 +160,6 @@ public class ControlePersonnage : MonoBehaviour
         void Recommencer()
         {
             SceneManager.LoadScene("finMort");
-        }
-
-        //Compteur des oeufs
-        void UpdatePointage()
-        {
-        textPointage.text = "Pointage: " + compteur.ToString();
         }
 
        
