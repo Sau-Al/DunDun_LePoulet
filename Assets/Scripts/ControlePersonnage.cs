@@ -17,6 +17,9 @@ public class ControlePersonnage : MonoBehaviour
 
     AudioSource sourceAudio; //Audio
 
+    public float health = 100f; //Vie du personnage
+    private int MAX_HEALTH = 100; //Vie maximale du personnage
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +34,21 @@ public class ControlePersonnage : MonoBehaviour
         // déplacement vers la gauche
         if (partieTerminee == false)
         {
+
+            //Debug pour le dommage et la guérison
+            if (Input.GetKeyDown(KeyCode.I))
+            {
+                Damage(10);
+            }
+            //guerison
+            if (Input.GetKeyDown(KeyCode.O))
+            {
+                Heal(10);
+            }
+
+
+
+
 
             if (Input.GetKey("a"))
             {
@@ -91,42 +109,53 @@ public class ControlePersonnage : MonoBehaviour
 
         }
     }
-        void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        //Désactive l'animation de saut si l'objet touche le sol
+        if (Physics2D.OverlapCircle(transform.position, 0.5f))
         {
-            //Désactive l'animation de saut si l'objet touche le sol
-            if (Physics2D.OverlapCircle(transform.position, 0.5f))
+            GetComponent<Animator>().SetBool("saute", false);
+        }
+
+        //Activation de l'animation mort au contact avec un ennemi
+        if (collision.gameObject.name == "Renard")
+        {
+            if ((GetComponent<Animator>().GetBool("attaque") == true))
             {
-                GetComponent<Animator>().SetBool("saute", false);
+                //Détruire l'ennemi
+                Destroy(collision.gameObject); 
             }
 
-            //Activation de l'animation mort au contact avec un ennemi
-            if (collision.gameObject.name == "Renard")
-            {
-                GetComponent<Animator>().SetBool("mort", true);
-                
 
-                //Désactive les contrôles du personnage lorsqu'il est mort
-                if (transform.position.x > collision.transform.position.x)
-                {
+            if ((GetComponent<Animator>().GetBool("attaque") == false))
+            {
+                  //Déclenche l'animation de mort
+                  GetComponent<Animator>().SetBool("mort", true);
+
+                  //Désactive les contrôles du personnage lorsqu'il est mort
+                  if (transform.position.x > collision.transform.position.x)
+                  {
                     GetComponent<Rigidbody2D>().velocity = new Vector2(10, 30);
-                }
-                else
-                {
+                  }
+                  else
+                  {
                     GetComponent<Rigidbody2D>().velocity = new Vector2(-10, 30);
-                }
+                  }
 
-                //Partie terminée enregistrée
-                partieTerminee = true;
+                  //Partie terminée enregistrée
+                  partieTerminee = true;
 
-                //Fin de la partie, reload la scene
-                Invoke("Recommencer", 2f);
-
+                  //Fin de la partie, reload la scene
+                  Invoke("Recommencer", 2f);
+            
             }
+                
+        }
 
-            //Récupère un oeuf
-            if (collision.gameObject.tag == "Oeuf")
-            {
-                Destroy(collision.gameObject);
+        //Récupère un oeuf
+        if (collision.gameObject.tag == "Oeuf")
+        {
+            Destroy(collision.gameObject);
 
             //Son de récupération de l'oeuf
             //GetComponent<AudioSource>().Play();
@@ -142,25 +171,59 @@ public class ControlePersonnage : MonoBehaviour
             }
         }
 
-        }
-         //Si le poulet tombe dans le vide
-        void OnTriggerEnter2D(Collider2D collision)
+    }
+    //Si le poulet tombe dans le vide
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Vide")
         {
-            if (collision.gameObject.tag == "Vide")
-            {
-                //Déclenche l'animation de mort
-                GetComponent<Animator>().SetBool("mort", true);
+            //Déclenche l'animation de mort
+            GetComponent<Animator>().SetBool("mort", true);
 
-                //Recommence la partie
-                Invoke("Recommencer", 2f);
-            }
+            //Recommence la partie
+            Invoke("Recommencer", 2f);
         }
+    }
+
+    //Recommençer la partie
+    void Recommencer()
+    {
+        SceneManager.LoadScene("finMort");
+    }
+
+    public void Damage(int amount)
+    {
+        if (amount < 0)
+        {
+            throw new System.ArgumentException("Amount must be positive");
+        }
+
+        this.health -= amount;
+
+        if (health <= 0)
+        {
+            Recommencer();
+        }
+    }
+
+    public void Heal(int amount)
+    {
+        if (amount < 0)
+        {
+            throw new System.ArgumentException("Amount must be positive");
+        }
+
+        bool wouldBeOverMaxHealth = health + amount > MAX_HEALTH;
+
+        if (wouldBeOverMaxHealth)
+        {
+            this.health =  MAX_HEALTH;
+        } else {
+        this.health += amount; 
+        }
+
         
-        //Recommençer la partie
-        void Recommencer()
-        {
-            SceneManager.LoadScene("finMort");
-        }
+    }
 
-       
-}   
+
+}
