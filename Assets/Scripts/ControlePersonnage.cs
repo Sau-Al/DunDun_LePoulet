@@ -17,8 +17,10 @@ public class ControlePersonnage : MonoBehaviour
 
     AudioSource sourceAudio; //Audio
 
-    public float health = 100f; //Vie du personnage
-    private int MAX_HEALTH = 100; //Vie maximale du personnage
+    
+    //Image de la barre de vie
+    public Image HealthBar;
+
 
     // Start is called before the first frame update
     void Start()
@@ -34,21 +36,6 @@ public class ControlePersonnage : MonoBehaviour
         // déplacement vers la gauche
         if (partieTerminee == false)
         {
-
-            //Debug pour le dommage et la guérison
-            if (Input.GetKeyDown(KeyCode.I))
-            {
-                Damage(10);
-            }
-            //guerison
-            if (Input.GetKeyDown(KeyCode.O))
-            {
-                Heal(10);
-            }
-
-
-
-
 
             if (Input.GetKey("a"))
             {
@@ -120,35 +107,40 @@ public class ControlePersonnage : MonoBehaviour
         //Activation de l'animation mort au contact avec un ennemi
         if (collision.gameObject.name == "Renard")
         {
-            if ((GetComponent<Animator>().GetBool("attaque") == true))
-            {
-                //Détruire l'ennemi
-                Destroy(collision.gameObject); 
-            }
+            //Attaque l'ennemi
+                if ((GetComponent<Animator>().GetBool("attaque") == true))
+                {
+                    //Détruire l'ennemi
+                    Destroy(collision.gameObject);
+                }
+                else
+                {
+                   // Appliquer des dégâts au personnage
+                   HealthBar.fillAmount -= 0.1f;
 
+                    if ( HealthBar.fillAmount == 0)
+                    {
+                        //Déclenche l'animation de mort
+                        GetComponent<Animator>().SetBool("mort", true);
 
-            if ((GetComponent<Animator>().GetBool("attaque") == false))
-            {
-                  //Déclenche l'animation de mort
-                  GetComponent<Animator>().SetBool("mort", true);
+                        //Désactive les contrôles du personnage lorsqu'il est mort
+                        if (transform.position.x > collision.transform.position.x)
+                        {
+                            GetComponent<Rigidbody2D>().velocity = new Vector2(10, 30);
+                        }
+                        else
+                        {
+                            GetComponent<Rigidbody2D>().velocity = new Vector2(-10, 30);
+                        }
 
-                  //Désactive les contrôles du personnage lorsqu'il est mort
-                  if (transform.position.x > collision.transform.position.x)
-                  {
-                    GetComponent<Rigidbody2D>().velocity = new Vector2(10, 30);
-                  }
-                  else
-                  {
-                    GetComponent<Rigidbody2D>().velocity = new Vector2(-10, 30);
-                  }
+                        //Partie terminée enregistrée
+                        partieTerminee = true;
 
-                  //Partie terminée enregistrée
-                  partieTerminee = true;
+                        //Fin de la partie, reload la scene
+                        Invoke("Recommencer", 2f);
+                    }
+                }
 
-                  //Fin de la partie, reload la scene
-                  Invoke("Recommencer", 2f);
-            
-            }
                 
         }
 
@@ -172,57 +164,12 @@ public class ControlePersonnage : MonoBehaviour
         }
 
     }
-    //Si le poulet tombe dans le vide
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Vide")
-        {
-            //Déclenche l'animation de mort
-            GetComponent<Animator>().SetBool("mort", true);
-
-            //Recommence la partie
-            Invoke("Recommencer", 2f);
-        }
-    }
+    
 
     //Recommençer la partie
     void Recommencer()
     {
         SceneManager.LoadScene("finMort");
-    }
-
-    public void Damage(int amount)
-    {
-        if (amount < 0)
-        {
-            throw new System.ArgumentException("Amount must be positive");
-        }
-
-        this.health -= amount;
-
-        if (health <= 0)
-        {
-            Recommencer();
-        }
-    }
-
-    public void Heal(int amount)
-    {
-        if (amount < 0)
-        {
-            throw new System.ArgumentException("Amount must be positive");
-        }
-
-        bool wouldBeOverMaxHealth = health + amount > MAX_HEALTH;
-
-        if (wouldBeOverMaxHealth)
-        {
-            this.health =  MAX_HEALTH;
-        } else {
-        this.health += amount; 
-        }
-
-        
     }
 
 
