@@ -15,6 +15,9 @@ public class ControlePersonnage : MonoBehaviour
 
     public bool attaquePossible; //variable pour l'attaque
 
+    // Déclaration de la variable public de l’objet son
+    public AudioClip sonBlesse; 
+    public AudioClip sonPickup; // son de récupération de l'oeuf
     AudioSource sourceAudio; //Audio
 
     
@@ -105,7 +108,7 @@ public class ControlePersonnage : MonoBehaviour
         }
 
         //Activation de l'animation mort au contact avec un ennemi
-        if (collision.gameObject.name == "Renard")
+        if (collision.gameObject.tag == "ennemis")
         {
             //Attaque l'ennemi
                 if ((GetComponent<Animator>().GetBool("attaque") == true))
@@ -117,6 +120,12 @@ public class ControlePersonnage : MonoBehaviour
                 {
                    // Appliquer des dégâts au personnage
                    HealthBar.fillAmount -= 0.1f;
+                  //Appliquer une couleur rouge au personnage puis il redevient normal
+                  GetComponent<SpriteRenderer>().color = Color.red;
+                  Invoke("RetourNormal", 0.1f);
+                   //Joue le son de blessure
+                   sourceAudio.PlayOneShot(sonBlesse,1f);
+
 
                     if ( HealthBar.fillAmount == 0)
                     {
@@ -150,7 +159,7 @@ public class ControlePersonnage : MonoBehaviour
             Destroy(collision.gameObject);
 
             //Son de récupération de l'oeuf
-            //GetComponent<AudioSource>().Play();
+            sourceAudio.PlayOneShot(sonPickup, 1f);
 
             //Affiche le nombre d'oeufs récupérés
             //Pointage
@@ -165,11 +174,32 @@ public class ControlePersonnage : MonoBehaviour
 
     }
     
+    //Quand le personnage mange une graine, il gagne de la vie
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "food")
+        {
+            Destroy(collision.gameObject); //détruire la graine
+            GetComponent<SpriteRenderer>().color = Color.green;
+            Invoke("RetourNormal", 0.1f);
+
+            if (HealthBar.fillAmount < 1)
+            {
+                HealthBar.fillAmount += 0.1f;
+            }
+        }
+    }
 
     //Recommençer la partie
     void Recommencer()
     {
         SceneManager.LoadScene("finMort");
+    }
+
+    //Retour à la couleur normale
+    void RetourNormal()
+    {
+        GetComponent<SpriteRenderer>().color = Color.white;
     }
 
 
