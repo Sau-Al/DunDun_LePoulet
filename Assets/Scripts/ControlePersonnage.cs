@@ -193,6 +193,9 @@ public class ControlePersonnage : MonoBehaviour
     //Recommençer la partie
     void Recommencer()
     {
+        //les oeuufs sont remis à 0
+        OeufsRetrouves.compteurOeufs = 0;
+        //Change la scène
         SceneManager.LoadScene("finMort");
     }
 
