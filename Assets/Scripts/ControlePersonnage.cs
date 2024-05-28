@@ -82,22 +82,18 @@ public class ControlePersonnage : MonoBehaviour
             }
 
             //Gestion de l'attaque
-            if (Input.GetKeyDown(KeyCode.Space) && GetComponent<Animator>().GetBool("saute") == false)
+            if (Input.GetKeyDown("space") && attaquePossible == true)
             {
                 GetComponent<Animator>().SetBool("attaque", true);
                 attaquePossible = false;
-                Invoke("AnnuleAttaque", 0.4f);
-            }
-            else
+                Invoke("FinAttaque", 0.5f);
+            } else if (Input.GetKeyUp("space") && attaquePossible == false)
             {
                 GetComponent<Animator>().SetBool("attaque", false);
             }
-            if (attaquePossible == false && vitesseX <= vitesseXMax)
-            {
-                vitesseX = vitesseX + 5f;
-            }
 
-        }
+
+        } 
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -111,9 +107,9 @@ public class ControlePersonnage : MonoBehaviour
         if (collision.gameObject.tag == "ennemis")
         {
             //Attaque l'ennemi
-                if ((GetComponent<Animator>().GetBool("attaque") == true))
+            //Si l'animation d'attaque est activée, l'ennemi est détruit
+                if (GetComponent<Animator>().GetBool("attaque") == true)
                 {
-                    //Détruire l'ennemi
                     Destroy(collision.gameObject);
                 }
                 else
@@ -168,7 +164,11 @@ public class ControlePersonnage : MonoBehaviour
             //Si le nombre d'oeufs est égal à 10, la partie est gagnée
             if (OeufsRetrouves.compteurOeufs == 10)
             {
+                //Oeuf sont remis à 0
+                OeufsRetrouves.compteurOeufs = 0;
+                //Change la scène
                 SceneManager.LoadScene("finGagne");
+
             }
         }
 
@@ -193,7 +193,7 @@ public class ControlePersonnage : MonoBehaviour
     //Recommençer la partie
     void Recommencer()
     {
-        //les oeuufs sont remis à 0
+        //les oeufs sont remis à 0
         OeufsRetrouves.compteurOeufs = 0;
         //Change la scène
         SceneManager.LoadScene("finMort");
@@ -203,6 +203,13 @@ public class ControlePersonnage : MonoBehaviour
     void RetourNormal()
     {
         GetComponent<SpriteRenderer>().color = Color.white;
+    }
+
+    //Animation de fin d'attaque
+    void FinAttaque()
+    {
+        GetComponent<Animator>().SetBool("attaque", false);
+        attaquePossible = true;
     }
 
 
